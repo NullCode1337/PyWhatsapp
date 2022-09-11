@@ -6,10 +6,10 @@ from flask import Flask, request
 
 
 
-messenger = WhatsApp(environ.get("TOKEN")) #this should be writen as 
+#messenger = WhatsApp(environ.get("TOKEN")) #this should be writen as 
 #WhatsApp(token = "inpust accesstoken", phone_number_id="input phone number id") #messages are not recieved without this pattern
 
-
+messenger = WhatsApp( token=environ.get("TOKEN"), phone_number_id=environ.get("PHONE") )
 VERIFY_TOKEN = environ.get("APP_SECRET") #application secret here
 
 #to be tested in prod environment
