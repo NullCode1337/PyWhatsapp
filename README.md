@@ -11,7 +11,7 @@ These is the sample Webhook Flask app for WhatsApp Cloud API. You can read more 
 1. Deploy the sample app on Heroku with this button:
 
     
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JAXPARROW/whatsapi-flask-webhook)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NullCode1337/whatsapi-flask-webhook)
 
 
 2. After Clicking the deploy button you will be required to login to Heroku to continue specifying the app name and region, then Click Deploy App button.
