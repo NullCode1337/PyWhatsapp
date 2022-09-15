@@ -2,3 +2,4 @@ Flask
 gunicorn
 requests
 git+https://github.com/Neurotech-HQ/heyoo@b1b4f91#egg=heyoo
+requests_toolbelt
