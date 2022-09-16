@@ -41,7 +41,7 @@ APP_SECRET: <any random string (no numbers) which you will also add to Meta Webh
 
     ![Preview](Images/Heroku9.png)
 
-8. Open Meta Developers Webhooks panel and click **"Edit subscription"**
+8. Open Meta Developers Whatsapp/Configuration panel and click **"Edit"** beside webhooks textbox
 
 9. On the dialog box, for **Callback URL** enter `https://<app_name>.herokuapp.com/whatsapi`
 
