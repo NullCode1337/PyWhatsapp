@@ -27,8 +27,8 @@ This is a template for generating Whatsapp bots which are immediately deployable
 
 5. Go to the **Settings > Reveal Config Vars**, and add the following variables:
 ```text
-TOKEN: <your temporary access token or permanent token from Meta Whatsapp dashboard>
-PHONE: <your phone number ID from Meta Whatsapp Dashboard>
+TOKEN: <your temporary access token or permanent token from Whatsapp/Getting Started>
+PHONE: <your phone number ID from Whatsapp/Getting Started>
 APP_SECRET: <any random string (no numbers) which you will also add to Meta Webhooks>
 ```
 6. When you have finished, click **Open app**. You'll be sent to a website which says **"Hello, It Works"**
@@ -43,11 +43,14 @@ APP_SECRET: <any random string (no numbers) which you will also add to Meta Webh
 
 8. Open Meta Developers Whatsapp/Configuration panel and click **"Edit"** beside webhooks textbox
 
+![image](https://user-images.githubusercontent.com/70959549/190577740-509bee34-9645-44b7-9042-1a3c12e875d5.png)
+![image](https://user-images.githubusercontent.com/70959549/190577966-047e74bc-78c0-488f-b237-bb3ad0f66f9e.png)
+
 9. On the dialog box, for **Callback URL** enter `https://<app_name>.herokuapp.com/whatsapi`
 
 10. For **Verify Token** enter the APP_SECRET you previously set on Heroku. Click Verify and Save.
 
-![image](https://user-images.githubusercontent.com/70959549/190555985-55da4237-f932-4789-98a8-036a3aa650cf.png)
+![image](https://user-images.githubusercontent.com/70959549/190578355-719246d5-e3d6-4f80-a422-3788cc418f72.png)
 
 ## References 
 1. [WhatsApp Cloud API official documentation](https://developers.facebook.com/docs/whatsapp/cloud-api/)
