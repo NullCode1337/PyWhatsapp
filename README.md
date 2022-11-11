@@ -9,7 +9,7 @@ This is a template for generating Whatsapp bots which are immediately deployable
 1. You can deploy this sample app on Heroku (for testing) by clicking here:
 
     
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NullCode1337/WhatsAPI-Python)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NullCode1337/PyWhatsapp)
 
 
 2. Add a name and region for this bot, then click Deploy App button.
